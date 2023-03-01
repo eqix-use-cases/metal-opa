@@ -12,8 +12,8 @@ data "template_file" "user_data" {
 module "device" {
   source              = "git::github.com/andrewpopa/terraform-metal-device.git"
   hostname            = "metal-with-opa"
-  plan                = "t1.small.x86"
-  facilities          = ["ams1"]
+  plan                = "m3.large.x86"
+  facilities          = ["am6"]
   operating_system    = "ubuntu_18_04"
   billing_cycle       = "hourly"
   project_id          = var.project_id

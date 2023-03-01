@@ -7,6 +7,7 @@ array_contains(arr, elem) {
 }
  
 allowed_types = [
+  "m3.small.x86",
   "c3.small.x86",
   "c3.medium.x86",
 ]
